@@ -1,3 +1,0 @@
-[submodule "plugged/nerdtree"]
-	path = plugged/nerdtree
-	url = git@github.com:preservim/nerdtree.git
