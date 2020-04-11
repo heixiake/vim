@@ -8,7 +8,6 @@ set cursorline  " 高亮显示光标所在的行
 set ruler   " 显示尺度
 syntax on
 set linebreak  " 单词的软换行
-set termguicolors  "设置终端颜色
 filetype plugin indent on
 set autoindent
 set expandtab
