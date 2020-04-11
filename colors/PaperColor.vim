@@ -1,1 +1,0 @@
-/Users/heixiake/.vim/plugged/papercolor-theme/colors/PaperColor.vim
