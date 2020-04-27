@@ -2,7 +2,8 @@ set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
 set encoding=utf-8
 set runtimepath+=~/.vim
-let mapleader='\<Space>'
+"let mapleader='\<Space>'
+let mapleader='\'
 set showcmd    " 在状态栏显示最后执行的命令
 set cursorline  " 高亮显示光标所在的行
 set ruler   " 显示尺度
@@ -40,12 +41,13 @@ let NERDTreeShowLineNumbers=1 "显示行号
 let NERDTreeHightCursorline=1 "高亮当前文件
 let NERDTreeShowHidden=0 "显示隐藏文件
 let NERDTreeMinimalUI=0 "不显示'Bookmarks' label 'Press ? for help'
-let NERDTreeWinSize=21 "窗口宽度
+let NERDTreeWinSize=31 "窗口宽度
 
 
 call plug#begin()
 Plug 'scrooloose/nerdtree'   "目录文件管理
 Plug 'scrooloose/nerdcommenter'  "注释
+Plug 'chr4/nginx.vim'
 "Plug 'tpope/vim-fugitive'    "git管理
 "Plug 'tpope/vim-unimpaired' "添加映射
 "let g:plug_timeout = 300
